@@ -66,7 +66,7 @@ $(document).ready(function () {
             stop();
             $(".gamescreen").hide();
             $(".resultscreen").show();
-            $("#timeout").html("You ran out of time.  Try Again");
+            $("#timeout").html("You ran out of time. Try Again");
         }
     }
     function stop() {
